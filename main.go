@@ -12,7 +12,7 @@ import (
 	"github.com/asim/go-micro/v3"
     "github.com/asim/go-micro/v3/server"
 	"github.com/asim/go-micro/v3/registry"
- 
+
 	_ "github.com/jinzhu/gorm/dialects/mysql"
 	"github.com/opentracing/opentracing-go"
 	"net"
@@ -27,7 +27,7 @@ import (
 
 var (
     //服务地址
-	hostIp = "192.168.0.105"
+	hostIp = "192.168.0.115"
     //服务地址
     serviceHost = hostIp
     //服务端口
